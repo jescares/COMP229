@@ -1,3 +1,10 @@
+/*
+Filename: app.js
+Name: Jan Rodel Escareses
+Student #: 301225122
+Date: October 2nd, 2022
+*/
+
 //installed 3rd party packages
 let createError = require('http-errors');
 let express = require('express');

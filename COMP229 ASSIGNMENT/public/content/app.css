@@ -1,8 +1,59 @@
-/* custom css goes here */
+/* 
+Filename: app.css
+Name: Jan Rodel Escareses
+Student #: 301225122
+Date: October 2nd, 2022
+*/
+
+/* General CSS for content div */
 #content
 {
-	width:940px; 
+	width: 75%;
 	margin-left:auto; 
 	margin-right:auto;
-    margin-top:30px;
+  margin-top: 30px;
+}
+h2
+{
+  text-align: center;
+}
+.picture
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:20%;
+}
+/*CSS for Contact Page*/
+.wrapper 
+{
+  list-style-type: none;
+  padding: 0;
+  border-radius: 3px;
+}
+.form-row 
+{
+  display: flex;
+  justify-content: flex-end;
+  padding: .5em;
+}
+.form-row > label 
+{
+  padding: .5em 1em .5em 0;
+  flex: 1;
+}
+.form-row > input 
+{
+  flex: 2;
+}
+#submit
+{
+  padding: .5em;
+  background: #3a62f2;
+  color: white;
+  border: 0;
+}
+textarea
+{
+	resize: none;
 }

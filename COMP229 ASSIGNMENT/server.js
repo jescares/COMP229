@@ -1,5 +1,12 @@
 #!/usr/bin/env node
 
+/*
+Filename: server.js
+Name: Jan Rodel Escareses
+Student #: 301225122
+Date: October 2nd, 2022
+*/
+
 /**
  * Module dependencies.
  */

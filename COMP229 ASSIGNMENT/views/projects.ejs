@@ -4,12 +4,29 @@
     <div id="content">
         <h2><%- title%></h2>
         <p>Here are some things I am working on/have worked on in the past:</p>
-        <ul>
-            <li>A wellness check/tracker software project proposal</li>
-            <li>A javascript clicker game which you can play <a href="http://studentweb.cencol.ca/jescares/Assignment5/Assignment5_Escareses.html">here</a></li>
-            <li>A small webpage about a car which you can find <a href="http://studentweb.cencol.ca/jescares/Assignment3.html">here</a></li>
-            <li>A dummy real estate agent website which you can find <a href="http://studentweb.cencol.ca/jescares/TermProject/index.html">here</a></li>
-        </ul>
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
+                <figure>
+                    <img src="/assets/images/js-clicker-game.jpg"/>
+                    <figcaption><a href="http://studentweb.cencol.ca/jescares/Assignment5/Assignment5_Escareses.html">JS Clicker Game</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-sm">
+                <figure>
+                    <img src="/assets/images/car-website.jpg"/>
+                    <figcaption><a href="http://studentweb.cencol.ca/jescares/Assignment3.html">Car Website</a></figcaption>
+                </figure>
+              </div>
+              <div class="col-sm">
+                <figure>
+                    <img src="/assets/images/real-estate-website.jpg"/>
+                    <figcaption><a href="http://studentweb.cencol.ca/jescares/TermProject/index.html">Real Estate Agent Website</a></figcaption>
+                </figure>
+              </div>
+            </div>
+        </div>
+        <p>And many more projects coming soon!</p>
     </div>
 
 <%- include partials/footer.ejs %>
